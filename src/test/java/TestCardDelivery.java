@@ -18,7 +18,7 @@ public class TestCardDelivery {
         $("[data-test-id=phone] input").setValue("+79049999999");
         $("[data-test-id=agreement]").click();
         $("[class=button__text]").click();
-        $(withText("Успешн!"))
+        $(withText("Успешно!"))
                 .shouldBe(visible, Duration.ofSeconds(15));
     }
 }
