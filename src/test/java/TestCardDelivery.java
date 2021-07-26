@@ -11,7 +11,7 @@ public class TestCardDelivery {
 
     @Test
     void shouldBePassValidation() {
-        open("http://localhost:9999/");
+        open("http://localhost:9999");
         $("[data-test-id=city] input").setValue("Пенза");
         $("[data-test-id=date] input").setValue("27.07.2021");
         $("[data-test-id=name] input").setValue("Иванов Иван-Иванович");
